@@ -27,7 +27,6 @@ body{
     background-repeat: no-repeat;
     flex-direction: column;
 }
-
 .banner{
     display: flex;
     justify-content: space-between;
@@ -52,9 +51,8 @@ body{
     
 
 .btn-primary{
-    
-background: rgb(13, 19, 33);
 font-weight: 600;
+background: rgb(13, 19, 33);
 padding: 21px 24px 21px 24px;;
 border-radius: 8px;
 border: none;
@@ -62,4 +60,111 @@ font-size: 20px;
 color: rgb(255, 255, 255);
 margin-bottom: 44px;
 }
+
+
+/* why-web-dev related style */
+#card-box{
+    width: 1140px;
+    height: 1097px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 74px;
+    margin-bottom: 52px;
+    color: #ADC8F7
+    
+    
+} 
+
+#card-box .info{
+    margin-bottom: 52px;
+}
+
+
+#card-box .title{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(13, 19, 33, 0.7);;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+} 
+
+#card-box .description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+} 
+.card-container{
+    width: 960px;
+    height: 1032px;
+    text-align: center;
+    margin-top: 52px;
+    margin: 0 auto;
+    color: #FFFFFF
+  
+}
+
+
+.card-content .title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #0D1321;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    text-align: center;
+    margin-bottom: 16px;
+}    
+.card-content .description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D1321;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 16px;
+
+}
+.card-content .btn-secondary{
+    width: 150px;
+    height: 48px;
+    margin: 32px 0px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-top: 32px;
+    padding: 12px 20px 12px 20px;
+
+}
+.card1-pic{
+width: 274.17px;
+height: 240px;
+flex: none;
+margin: 0px 10px;
+}
+
+.Card{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 32px;
+}
+.card-content{
+    max-width: 477px;
+}
+  
+
+
+
+
+
+
+
 
